@@ -1,0 +1,14 @@
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\bin\Debug\net9.0\DesignPatternAndSolidTask.exe
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\bin\Debug\net9.0\DesignPatternAndSolidTask.deps.json
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\bin\Debug\net9.0\DesignPatternAndSolidTask.runtimeconfig.json
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\bin\Debug\net9.0\DesignPatternAndSolidTask.dll
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\bin\Debug\net9.0\DesignPatternAndSolidTask.pdb
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.AssemblyInfoInputs.cache
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.AssemblyInfo.cs
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.csproj.CoreCompileInputs.cache
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.dll
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\refint\DesignPatternAndSolidTask.dll
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.pdb
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.genruntimeconfig.cache
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\ref\DesignPatternAndSolidTask.dll

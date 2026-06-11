@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DesignPatternAndSolidTask.ProxyPattern
+{
+    internal class RealImage : IImage
+    {
+        public void Display()
+        {
+            //Thread.Sleep(2000);
+            Console.WriteLine("displaying");
+        }
+    }
+}

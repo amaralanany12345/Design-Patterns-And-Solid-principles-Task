@@ -1,0 +1,14 @@
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\bin\Debug\net9.0\SolidRefactor.exe
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\bin\Debug\net9.0\SolidRefactor.deps.json
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\bin\Debug\net9.0\SolidRefactor.runtimeconfig.json
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\bin\Debug\net9.0\SolidRefactor.dll
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\bin\Debug\net9.0\SolidRefactor.pdb
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.AssemblyInfoInputs.cache
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.AssemblyInfo.cs
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.csproj.CoreCompileInputs.cache
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.dll
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\refint\SolidRefactor.dll
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.pdb
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\SolidRefactor.genruntimeconfig.cache
+D:\Projects\DesignPatternAndSolidTask\SolidRefactor\obj\Debug\net9.0\ref\SolidRefactor.dll
