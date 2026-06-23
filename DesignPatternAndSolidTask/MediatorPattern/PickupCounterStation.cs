@@ -8,19 +8,21 @@ namespace DesignPatternAndSolidTask.MediatorPattern
 {
     internal class PickupCounterStation : Station
     {
-        public PickupCounterStation(IOrderMediator orderMediator, string name) : base(orderMediator, name)
+        public PickupCounterStation(IOrderMediator orderMediator) : base(orderMediator)
         {
+            Name = "PickUp";
+
         }
 
-        public override void receive(string message, string fromStationName)
+        public override void Receive(string message, string fromStationName)
         {
-            Console.WriteLine($"{name} is received {message} from {fromStationName}");
+            Console.WriteLine($"{Name} is received {message} from {fromStationName}");
         }
 
-        public override void send(string message)
+        public override void Send(string message)
         {
-            Console.WriteLine($"{name} is send {message}");
-            _orderMediator.sendMessage(message, this);
+            Console.WriteLine($"{Name} is send {message}");
+            _orderMediator.SendMessage(message, this);
         }
     }
 }

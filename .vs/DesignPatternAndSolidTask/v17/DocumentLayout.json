@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Projects\\DesignPatternAndSolidTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\iordermediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\iordermediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\concretemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\concretemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\pickupcounterstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\pickupcounterstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 361,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +50,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PickupCounterStation.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\PickupCounterStation.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\PickupCounterStation.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\PickupCounterStation.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\PickupCounterStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:14:15.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Station.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:50:56.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConcreteMediator.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:47:27.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IOrderMediator.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:47:07.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\Program.cs",
               "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\Program.cs",
               "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\Program.cs",
               "RelativeToolTip": "DesignPatternAndSolidTask\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T14:22:28.39Z",
               "EditorCaption": ""

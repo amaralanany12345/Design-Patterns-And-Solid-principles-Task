@@ -9,7 +9,7 @@ namespace DesignPatternAndSolidTask.AbstractFactory
 {
     internal class AmericanBeans : IBeans
     {
-        public string AddBeansType(string beansType)
+        public string AddBeansType()
         {
             return BeansType.AmericanBeans.ToString();
 

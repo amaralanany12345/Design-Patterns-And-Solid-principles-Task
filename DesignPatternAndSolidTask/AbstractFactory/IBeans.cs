@@ -8,7 +8,7 @@ namespace DesignPatternAndSolidTask.AbstractFactory
 {
     internal interface IBeans
     {
-        string AddBeansType(string beansType);
+        string AddBeansType();
 
     }
 }

@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\builderpattern\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\builderpattern\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\baristastation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\baristastation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\concretemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\concretemediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|d:\\projects\\designpatternandsolidtask\\designpatternandsolidtask\\mediatorpattern\\iordermediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D82F30A-783E-4D3E-9DC2-D799191918D7}|DesignPatternAndSolidTask\\DesignPatternAndSolidTask.csproj|solutionrelative:designpatternandsolidtask\\mediatorpattern\\iordermediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 361,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +50,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaristaStation.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\BaristaStation.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\BaristaStation.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\BaristaStation.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\BaristaStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:51:40.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Station.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\Station.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:50:56.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConcreteMediator.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\ConcreteMediator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:47:27.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderMediator.cs",
+              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "RelativeToolTip": "DesignPatternAndSolidTask\\MediatorPattern\\IOrderMediator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:47:07.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\Program.cs",
               "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\Program.cs",
               "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\Program.cs",
               "RelativeToolTip": "DesignPatternAndSolidTask\\Program.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAQwIoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T14:22:28.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Coffee.cs",
-              "DocumentMoniker": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\BuilderPattern\\Coffee.cs",
-              "RelativeDocumentMoniker": "DesignPatternAndSolidTask\\BuilderPattern\\Coffee.cs",
-              "ToolTip": "D:\\Projects\\DesignPatternAndSolidTask\\DesignPatternAndSolidTask\\BuilderPattern\\Coffee.cs",
-              "RelativeToolTip": "DesignPatternAndSolidTask\\BuilderPattern\\Coffee.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T14:22:04.924Z",
               "EditorCaption": ""
             }
           ]

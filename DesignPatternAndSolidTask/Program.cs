@@ -28,12 +28,6 @@ namespace DesignPatternAndSolidTask
             order.AddItemToOrder(latte);
             order.AddItemToOrder(tea);
             order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
-            order.AddItemToOrder(espresso);
             Console.WriteLine($"customer balance {order.Customer.Balance}");
             Console.WriteLine($"order total price {order.TotalPrice}");
 
@@ -41,31 +35,41 @@ namespace DesignPatternAndSolidTask
 
             //Builder
             Console.WriteLine();
-            Console.WriteLine("Builder--------------------------------------");
-            Console.WriteLine("Builder--------------------------------------");
+            Console.WriteLine("Builder------------------------------------------");
             var coffeeBuilder = new CoffeeBuilder();
-            coffeeBuilder.WithSize(CoffeeSize.Small).WithMilkType(MilkType.AmericanMilk)
-                            .WithTemperature(TemperatureType.Hot).AddShot().WithSyrup("syrupFlavor").WithCream(WhippedCreamType.Vanilla);
-            var coffee= coffeeBuilder.Build();
+            var coffee=new Coffee();
+            coffeeBuilder.Build(coffee).WithSize(CoffeeSize.Small).WithMilkType(MilkType.AmericanMilk).WithTemperature(TemperatureType.Hot)
+                .AddShot().WithSyrup("syrupFlavor").WithCream(WhippedCreamType.Vanilla);
+            
             Console.WriteLine(coffee.GetDescription());
             Console.WriteLine(coffee.GetCost());
+            Console.WriteLine(coffee.Size);
+            Console.WriteLine(coffee.WhippedCream);
+
+            var coffee2=new Coffee();
+            coffeeBuilder.Build(coffee2).WithSize(CoffeeSize.Large).WithMilkType(MilkType.EuropeanMilk)
+                .WithTemperature(TemperatureType.Iced).AddShot().WithSyrup("syrupFlavor").WithCream(WhippedCreamType.Chocolate);
+            
+            Console.WriteLine(coffee2.Size);
+            Console.WriteLine(coffee2.SyrupFlavor);
 
             //Factory
             Console.WriteLine();
-            Console.WriteLine("Factory---------------------------------------");
-            var drink= new EspressoDrink();
-            drink.Prepare(coffee);
+            Console.WriteLine("Factory-----------------------------------------");
+            var espressoDrink= new LatteDrink();
+            var factoryService = new DrinkServiceFactory();
+            factoryService.CreateDrinkFactory(espressoDrink);
 
             //Abstract factory
             Console.WriteLine();
-            Console.WriteLine("Abstract factory-----------------------------");
+            Console.WriteLine("Abstract factory--------------------------------");
             var AmericanIngredient=new AmericanIngredientFactory();
             var barista = new Barista(AmericanIngredient);
-            barista.Prepare(MilkType.AmericanMilk.ToString(), BeansType.AmericanBeans.ToString());
+            barista.Prepare();
 
             //Singleton
             Console.WriteLine();
-            Console.WriteLine("Singleton-----------------------------------");
+            Console.WriteLine("Singleton---------------------------------------");
             Console.WriteLine(ShopConfiguration.GetInstance().Currency);
             Console.WriteLine(ShopConfiguration.GetInstance().TaxRate);
             Console.WriteLine(ShopConfiguration.GetInstance().OpeningHours);
@@ -75,7 +79,7 @@ namespace DesignPatternAndSolidTask
 
             //Decorator
             Console.WriteLine();
-            Console.WriteLine("Decorator-----------------------------------");
+            Console.WriteLine("Decorator---------------------------------------");
             var creamDecorator = new CreamDecorator(espresso);
             Console.WriteLine(creamDecorator.GetCost(order,20m));
             Console.WriteLine(creamDecorator.GetDescription("vanillia"));
@@ -84,20 +88,20 @@ namespace DesignPatternAndSolidTask
 
             //Proxy
             Console.WriteLine();
-            Console.WriteLine("Proxy-------------------------------------");
+            Console.WriteLine("Proxy------------------------------------------");
             var proxyImage = new ProxyImage();
             proxyImage.Display();
 
             //Adapter
             Console.WriteLine();
-            Console.WriteLine("Adapter-------------------------------------");
+            Console.WriteLine("Adapter-----------------------------------------");
             var paymentService = new PaymentProcessorService();
             var paymentAdaptor = new PaymentProcessorAdapterForLegacyPayment(paymentService);
             Console.WriteLine(paymentService.MakePayment((double)order.TotalPrice,"12345"));
 
             //Facade
             Console.WriteLine();
-            Console.WriteLine("Facade------------------------------------");
+            Console.WriteLine("Facade------------------------------------------");
             var notificationServiceFacade = new NotificationService();
             var paymentServiceFroOrder = new PaymentServiceFacade(paymentAdaptor);
             var inventoryCheck = new InventoryService();
@@ -125,20 +129,17 @@ namespace DesignPatternAndSolidTask
 
             //Mediator
             Console.WriteLine();
-            Console.WriteLine("Mediator-----------------------------------");
+            Console.WriteLine("Mediator---------------------------------------");
             var concreteMediator = new ConcreteMediator();
-            var pickupCounter=new PickupCounterStation(concreteMediator,"pickup counter");
-            var baristaStation =new BaristaStation(concreteMediator,"Barista");
-            var cashierStation =new CashierStation(concreteMediator,"cashier");
-            concreteMediator.register(pickupCounter);
-            concreteMediator.register(baristaStation);
-            concreteMediator.register(cashierStation);
-            baristaStation.send("coffee is ready");
-            concreteMediator.sendMessage("coffee is ready",pickupCounter);
+            var cashierStation = new CashierStation(concreteMediator);
+            var pickupCounter=new PickupCounterStation(concreteMediator);
+            var baristaStation =new BaristaStation(concreteMediator);
+            cashierStation.Send("coffee is ready");
+            pickupCounter.Send("coffee is good");
 
             //Strategy 
             Console.WriteLine();
-            Console.WriteLine("Strategy-------------------------------");
+            Console.WriteLine("Strategy----------------------------------------");
             var pricingService = new PricingService();
             pricingService.DiscountType = DiscountType.None;
             pricingService.ApplyPayment(order);

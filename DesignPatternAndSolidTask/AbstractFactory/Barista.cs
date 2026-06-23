@@ -15,9 +15,9 @@ namespace DesignPatternAndSolidTask.AbstractFactory
             _ingredientFactory = ingredientFactory;
         }
 
-        public void Prepare(string milkType,string beansType)
+        public void Prepare()
         {
-            Console.WriteLine($"Coffee with beans {_ingredientFactory.AddBeans().AddBeansType(beansType)} and milk {_ingredientFactory.AddMilk().AddMilkType(milkType)}");
+            Console.WriteLine($"Coffee with beans {_ingredientFactory.AddBeans().AddBeansType()} and milk {_ingredientFactory.AddMilk().AddMilkType()}");
         }
     }
 }

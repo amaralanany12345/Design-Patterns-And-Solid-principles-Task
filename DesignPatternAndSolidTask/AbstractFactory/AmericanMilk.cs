@@ -9,7 +9,7 @@ namespace DesignPatternAndSolidTask.AbstractFactory
 {
     internal class AmericanMilk : IMilk
     {
-        public string AddMilkType(string milkType)
+        public string AddMilkType()
         {
             return MilkType.AmericanMilk.ToString();
         }

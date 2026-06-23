@@ -28,8 +28,6 @@ namespace DesignPatternAndSolidTask.Models
             Beverages.Add(beverage);
             beverage.Quantity -= 1;
             TotalPrice += beverage.GetCost();
-            //Customer.Balance -= beverage.GetCost();
-            //Console.WriteLine(Customer.Balance);
         }
 
     }

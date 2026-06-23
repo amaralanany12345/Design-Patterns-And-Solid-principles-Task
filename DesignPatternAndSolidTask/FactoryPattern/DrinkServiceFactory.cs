@@ -6,21 +6,27 @@ using System.Threading.Tasks;
 
 namespace DesignPatternAndSolidTask.FactoryPattern
 {
-    internal class DrinkServiceFactory : IDrinkFactory
+    internal class DrinkServiceFactory : IDrinkServiceFactory
     {
-        public IDrink Create(IDrink DrinkType)
+        public IDrinkFactory CreateDrinkFactory(IDrink drink)
         {
-            switch(DrinkType)
+            switch(drink)
             {
                 case LatteDrink:
-                    return new LatteDrink();
+                    var latteServiceFactory= new LatteServiceFactory();
+                    latteServiceFactory.Create(drink);
+                    return latteServiceFactory;
 
                 case TeaDrink:
-                    return new TeaDrink();
+                    var teaServiceFactory = new TeaServiceFactory();
+                    teaServiceFactory.Create(drink);
+                    return teaServiceFactory;
 
                 case EspressoDrink:
-                    return new EspressoDrink();
-                
+                    var espressoServiceFactory = new EspressoServiceFactory();
+                    espressoServiceFactory.Create(drink);
+                    return espressoServiceFactory;
+
                 default:
                     throw new NotImplementedException();
             }

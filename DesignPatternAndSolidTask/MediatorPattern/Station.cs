@@ -9,13 +9,12 @@ namespace DesignPatternAndSolidTask.MediatorPattern
     internal abstract class Station
     {
         public IOrderMediator _orderMediator;
-        public string name;
-        protected Station(IOrderMediator orderMediator, string name)
+        public string Name;
+        protected Station(IOrderMediator orderMediator)
         {
             _orderMediator = orderMediator;
-            this.name = name;
         }
-        public abstract void send(string message);
-        public abstract void receive(string message, string fromStationName);
+        public abstract void Send(string message);
+        public abstract void Receive(string message, string fromStationName);
     }
 }

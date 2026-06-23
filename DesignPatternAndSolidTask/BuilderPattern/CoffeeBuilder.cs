@@ -9,26 +9,20 @@ namespace DesignPatternAndSolidTask.BuilderPattern
 {
     internal class CoffeeBuilder : ICoffeeBuilder
     {
-        private readonly Coffee _coffee;
-
-        public CoffeeBuilder()
+        private Coffee _coffee { get; set; }
+        public ICoffeeBuilder Build(Coffee coffee)
         {
-            _coffee = new Coffee();
+            _coffee = coffee;
+            return this;
         }
-
         public ICoffeeBuilder AddShot()
         {
             _coffee.NumberOfShots++;
-            if(_coffee.NumberOfShots == 0)
+            if(_coffee.NumberOfShots == 5)
             {
-                throw new ArgumentException("please add shot to coffee");
+                throw new ArgumentException("you got the maximum number of shots");
             }
             return this;
-        }
-
-        public Coffee Build()
-        {
-            return _coffee;
         }
 
         public ICoffeeBuilder WithCream(WhippedCreamType WhippedCream)

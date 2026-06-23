@@ -1,6 +1,8 @@
-﻿using System;
+﻿using DesignPatternAndSolidTask.AbstractFactory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,21 +10,17 @@ namespace DesignPatternAndSolidTask.MediatorPattern
 {
     internal class ConcreteMediator : IOrderMediator
     {
-        private readonly List<Station> _stations=new List<Station>();
-        public void register(Station colleague)
+        public void SendMessage(string message, Station station)
         {
-            _stations.Add(colleague);
-        }
-
-        public void sendMessage(string message, Station colleague)
-        {
-            foreach (var item in _stations)
+            if (station.Name=="Cashier")
             {
-                if (item.name != colleague.name)
-                {
-
-                    item.receive(message, colleague.name);
-                }
+                var newBaristaStation = new BaristaStation(this);
+                newBaristaStation.Receive(message, station.Name);
+            }
+            else if (station.Name=="Barista")
+            {
+                var pickUp=new PickupCounterStation(this);
+                pickUp.Receive(message,station.Name);
             }
         }
     }

@@ -15,6 +15,6 @@ namespace DesignPatternAndSolidTask.BuilderPattern
         ICoffeeBuilder WithTemperature(TemperatureType temperature);
         ICoffeeBuilder WithCream(WhippedCreamType WhippedCream);
         ICoffeeBuilder WithMilkType(MilkType milkType);
-        Coffee Build();
+        ICoffeeBuilder Build(Coffee coffee);
     }
 }

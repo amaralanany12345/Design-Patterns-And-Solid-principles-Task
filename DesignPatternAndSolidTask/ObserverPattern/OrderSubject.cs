@@ -18,7 +18,7 @@ namespace DesignPatternAndSolidTask.ObserverPattern
         }
         public void SetOrderStatus(OrderStatus orderStatus)
         {
-            notify(orderStatus);
+            Notify(orderStatus);
         }
         public void Attach(IObserver observer)
         {
@@ -30,7 +30,7 @@ namespace DesignPatternAndSolidTask.ObserverPattern
             _observers.Remove(observer);
         }
 
-        public void notify(OrderStatus orderStatus)
+        public void Notify(OrderStatus orderStatus)
         {
             foreach(IObserver observer in _observers)
             {

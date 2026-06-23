@@ -11,11 +11,11 @@ namespace DesignPatternAndSolidTask.FactoryPattern
 {
     internal class TeaDrink:IDrink
     {
-        public void Prepare(IBeverage Drink)
+        public void Prepare(IBeverage drink)
         {
-            IBeverage newTea= new Tea();
-            Console.WriteLine(newTea.GetCost());
-            Console.WriteLine(newTea.GetDescription());
+            
+            Console.WriteLine(drink.GetCost());
+            Console.WriteLine(drink.GetDescription());
         }
     }
 }

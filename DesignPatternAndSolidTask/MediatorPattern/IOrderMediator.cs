@@ -8,7 +8,6 @@ namespace DesignPatternAndSolidTask.MediatorPattern
 {
     internal interface IOrderMediator
     {
-        void register(Station colleague);
-        void sendMessage(string message, Station colleague);
+        void SendMessage(string message, Station station);
     }
 }

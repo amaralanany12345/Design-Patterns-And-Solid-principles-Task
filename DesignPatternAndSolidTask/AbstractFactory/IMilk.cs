@@ -8,6 +8,6 @@ namespace DesignPatternAndSolidTask.AbstractFactory
 {
     internal interface IMilk
     {
-        string AddMilkType(string milkType);
+        string AddMilkType();
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesignPatternAndSolidTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20c2dd72947352d204f09cbe27c1466e6e8b35f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesignPatternAndSolidTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesignPatternAndSolidTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

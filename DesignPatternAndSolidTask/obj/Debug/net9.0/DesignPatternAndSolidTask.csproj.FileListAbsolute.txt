@@ -12,3 +12,4 @@ D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0
 D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.pdb
 D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.genruntimeconfig.cache
 D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\ref\DesignPatternAndSolidTask.dll
+D:\Projects\DesignPatternAndSolidTask\DesignPatternAndSolidTask\obj\Debug\net9.0\DesignPatternAndSolidTask.sourcelink.json

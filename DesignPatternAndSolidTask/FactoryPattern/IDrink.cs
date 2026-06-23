@@ -10,6 +10,6 @@ namespace DesignPatternAndSolidTask.FactoryPattern
 {
     internal interface IDrink
     {
-        void Prepare(IBeverage Drink);
+        void Prepare(IBeverage drink);
     }
 }

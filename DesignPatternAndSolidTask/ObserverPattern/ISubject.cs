@@ -11,6 +11,6 @@ namespace DesignPatternAndSolidTask.ObserverPattern
     {
         void Attach(IObserver observer);
         void Detach(IObserver observer);
-        void notify(OrderStatus orderStatus);
+        void Notify(OrderStatus orderStatus);
     }
 }
